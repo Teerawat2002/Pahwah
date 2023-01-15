@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_gravity="center"
+    tools:context=".OTOP">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@drawable/bg_otp2"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/textView6"
+                android:layout_width="match_parent"
+                android:layout_height="58dp"
+                android:fontFamily="@font/adamina"
+                android:gravity="center"
+                android:text="สินค้า OTOP"
+                android:textColor="#191919"
+                android:textSize="34sp"
+                android:textStyle="bold" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                android:orientation="vertical">
+
+                <TextView
+                    android:id="@+id/textView7"
+                    android:layout_width="match_parent"
+                    android:layout_height="52dp"
+                    android:fontFamily="@font/adamina"
+                    android:gravity="center|top"
+                    android:text="มะขามหวานไร้เมล็ด"
+                    android:textColor="#FFEB3B"
+                    android:textSize="22sp"
+                    android:textStyle="bold" />
+
+                <ImageView
+                    android:id="@+id/imageView"
+                    android:layout_width="190dp"
+                    android:layout_height="258dp"
+                    android:layout_gravity="center"
+                    app:srcCompat="@drawable/makhamotp" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/edit_text_bg"
+                android:orientation="vertical">
+
+                <TextView
+                    android:id="@+id/textView8"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="10dp"
+                    android:fontFamily="@font/adamina"
+                    android:text="ของฝากเพชรบูรณ์อันแรกที่เราจะไม่พูดถึงไม่ได้เลยก็เป็นตัวมะขามหวานไร้เมล็ดนั่นเอง ซึ่งปกติมะขามเป็นสัญลักษณ์ของจังหวัดเพชรบูรณ์ที่ขึ้นชื่ออยู่แล้ว แต่นี่นำมาแปรรูปให้หวานๆ ทานง่าย ซื้อง่าย ขายคล่องยิ่งกว่าเดิม เหมาะกับการเป็นของฝากมากๆ ราคาก็ไม่แพงมากด้วยแล้วแต่ร้าน และมีมากมายหลากหลายแบบให้เลือกเลย จะห่อเล็ก ห่อใหญ่ก็มีให้เลือกกัน"
+                    android:textColor="#333333"
+                    android:textSize="16sp" />
+            </LinearLayout>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <Button
+                android:id="@+id/btnHOME"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:onClick="HomePage"
+                android:text="HOME"
+                android:translationX="161dp" />
+
+            <Button
+                android:id="@+id/btnNEXT"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:onClick="NextPage"
+                android:text="NEXT"
+                android:translationX="221dp" />
+        </LinearLayout>
+
+    </LinearLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>

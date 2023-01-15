@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bg_travell"
+    tools:context=".Triphum">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center"
+        android:orientation="vertical"
+        tools:layout_editor_absoluteX="15dp"
+        tools:layout_editor_absoluteY="15dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:layout_weight="1"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/textView3"
+                android:layout_width="match_parent"
+                android:layout_height="30dp"
+                android:fontFamily="@font/adamina"
+                android:text="วัดไตรภูมิ"
+                android:textColor="#FFFFFF"
+                android:textSize="18sp"
+                android:textStyle="bold"
+                android:translationY="15dp" />
+
+            <ImageView
+                android:id="@+id/imageView8"
+                android:layout_width="match_parent"
+                android:layout_height="310dp"
+                app:srcCompat="@drawable/triphum" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <TextView
+                    android:id="@+id/textView4"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="@font/adamina"
+                    android:text="  วัดไตรภูมิ"
+                    android:textColor="#FFFFFF"
+                    android:textStyle="bold" />
+
+                <ScrollView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent">
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="vertical">
+
+                        <TextView
+                            android:id="@+id/textView5"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:fontFamily="@font/adamina"
+                            android:text="       ตั้งอยู่ที่ถนนเพชรรัตน์ เป็นวัดเก่าแก่ เป็นสถานที่ประดิษฐานพระพุทธมหาธรรมราชา พระพุทธรูปคู่บ้านคู่เมืองของจังหวัดเพชรบูรณ์ พระพุทธมหาธรรมราชาเป็นพระพุทธรูปทรงเครื่องศิลปสมัยลพบุรี ชาวบ้านพบในแม่น้ำป่าสักบริเวณหน้าวัด จึงได้อัญเชิญมาประดิษฐานที่วัดนี้ ต่อมาพระพุทธรูปองค์นี้ได้หายไป และมีผู้พบในแม่น้ำบริเวณที่พบครั้งแรกจึงถือกันเป็นประเพณีของจังหวัดเพชรบูรณ์ คือ ผู้ว่าราชการจังหวัดจะเป็นผู้อุ้มพระพุทธรูปลงดำไปยังก้นแม่น้ำ แล้วโผล่ขึ้นมา ทำเช่นนี้จนครบทั้ง 4 ทิศ ถือว่าเป็นสิริมงคลแก่จังหวัด และถ้าไม่ได้กระทำพิธีอุ้มพระดำน้ำจะเกิดฝนแล้งพิธีอุ้มพระดำน้ำนี้จะทำในวันขึ้น 15 ค่ำ เดือน 10"
+                            android:textColor="#FFFFFF" />
+                    </LinearLayout>
+                </ScrollView>
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <Button
+                android:id="@+id/btnBACK"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:onClick="BackPage"
+                android:text="BACK"
+                android:translationX="12dp" />
+
+            <Button
+                android:id="@+id/btnHOME"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:onClick="HomePage"
+                android:text="HOME"
+                android:translationX="73dp" />
+
+            <Button
+                android:id="@+id/btnNEXT"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:onClick="NextPage"
+                android:text="NEXT"
+                android:translationX="133dp" />
+        </LinearLayout>
+    </LinearLayout>
+</LinearLayout>

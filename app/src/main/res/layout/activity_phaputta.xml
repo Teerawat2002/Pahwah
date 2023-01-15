@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bg_travell"
+    tools:context=".Content">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center"
+        android:orientation="vertical"
+        tools:layout_editor_absoluteX="15dp"
+        tools:layout_editor_absoluteY="15dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:layout_weight="1"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/textView3"
+                android:layout_width="match_parent"
+                android:layout_height="30dp"
+                android:fontFamily="@font/adamina"
+                android:text="พระพุทธมหาธรรมราชาเฉลิมพระเกียรติ"
+                android:textColor="#FFFFFF"
+                android:textSize="18sp"
+                android:textStyle="bold"
+                android:translationY="15dp" />
+
+            <ImageView
+                android:id="@+id/imageView3"
+                android:layout_width="match_parent"
+                android:layout_height="300dp"
+                app:srcCompat="@drawable/phaputta" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <TextView
+                    android:id="@+id/textView4"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="@font/adamina"
+                    android:text="  พระพุทธมหาธรรมราชาเฉลิมพระเกียรติ"
+                    android:textColor="#FFFFFF"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:id="@+id/textView5"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="@font/adamina"
+                    android:text="       พระพุทธมหาธรรมราชาเฉลิมพระเกียรติ (Phra Buddha Maha Thammaracha Chaloem Phrakiat) เป็นองค์พระพุทธรูปศักดิ์สิทธิ์คู่บ้านคู่เมืองเพชรบูรณ์ที่ประดิษฐานอยู่ภายในพุทธอุทยานเพชบุระ องค์พระพุทธรูปนี้จัดสร้างขึ้นในวโรกาสที่พระบาทสมเด็จพระเจ้าอยู่หัวภูมิพลอดุลยเดชมหาราชทรงเจริญพระชนมายุครบ 7 รอบ 84 พรรษา และมีการบรรจุพระบรมสารีริกธาตุไว้ที่ด้านบนปลายยอดจุลมงกุฎอีกด้วย องค์พระพุทธรูปนี้จึงเป็นที่เคารพศรัทธาของชาวเพชรบูรณ์และเป็นอีกหนึ่งสถานที่ที่นักท่องเที่ยวมักจะแวะมาสักการะเมื่อมาเยือนยังจังหวัดเพชรบูรณ์"
+                    android:textColor="#FFFFFF" />
+            </LinearLayout>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:orientation="horizontal">
+
+            <Button
+                android:id="@+id/btnHOME"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:onClick="HomePage"
+                android:text="HOME"
+                android:translationX="43dp" />
+
+            <Button
+                android:id="@+id/btnNEXT"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:onClick="NextPage"
+                android:text="NEXT"
+                android:translationX="103dp" />
+        </LinearLayout>
+    </LinearLayout>
+</LinearLayout>

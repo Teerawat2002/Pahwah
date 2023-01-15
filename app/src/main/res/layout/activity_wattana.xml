@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bg_travell"
+    tools:context=".Content">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center"
+        android:orientation="vertical"
+        tools:layout_editor_absoluteX="15dp"
+        tools:layout_editor_absoluteY="15dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:layout_weight="1"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/textView3"
+                android:layout_width="match_parent"
+                android:layout_height="30dp"
+                android:fontFamily="@font/adamina"
+                android:text="หอวัฒนธรรมนครบาลเพชรบูรณ์"
+                android:textColor="#FFFFFF"
+                android:textSize="18sp"
+                android:textStyle="bold"
+                android:translationY="15dp" />
+
+            <ImageView
+                android:id="@+id/imageView6"
+                android:layout_width="match_parent"
+                android:layout_height="298dp"
+                app:srcCompat="@drawable/wattana" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <TextView
+                    android:id="@+id/textView4"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="@font/adamina"
+                    android:text="  หอวัฒนธรรมนครบาลเพชรบูรณ์"
+                    android:textColor="#FFFFFF"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:id="@+id/textView5"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="@font/adamina"
+                    android:text="       หอวัฒนธรรมนครบาลเพชรบูรณ์ เป็นที่อนุรักษ์ศิลปวัฒนธรรมและเป็นศูนย์กลางการเรียนรู้และค้นคิดองค์ความรู้ใหม่เพื่อการพัฒนา จัดตั้งโดยสำนักงานเทศบาลเมืองเพชรบูรณ์ โดยนายกเทศมนตรีเมืองเพชรบูรณ์ คุณวิศัลย์ โฆษิตานนท์ เป็นผู้ริเริ่มก่อตั้ง เพื่อรวบรวมเรื่องราวทางประวัติศาสตร์ ศิลปวัฒนธรรม ประวัติความเป็นมาของเมืองเพชรบูรณ์ ภูมิปัญญาท้องถิ่น ตลอดจนแหล่งท่องเที่ยวของเมืองเพชรบูรณ์"
+                    android:textColor="#FFFFFF" />
+            </LinearLayout>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <Button
+                android:id="@+id/btnBACK"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:onClick="BackPage"
+                android:text="BACK"
+                android:translationX="12dp" />
+
+            <Button
+                android:id="@+id/btnHOME"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:onClick="HomePage"
+                android:text="HOME"
+                android:translationX="73dp" />
+
+            <Button
+                android:id="@+id/btnNEXT"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:onClick="NextPage"
+                android:text="NEXT"
+                android:translationX="133dp" />
+        </LinearLayout>
+    </LinearLayout>
+</LinearLayout>

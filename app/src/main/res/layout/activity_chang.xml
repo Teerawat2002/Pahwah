@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bg_travell"
+    tools:context=".Chang">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center"
+        android:orientation="vertical"
+        tools:layout_editor_absoluteX="15dp"
+        tools:layout_editor_absoluteY="15dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:layout_weight="1"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/textView3"
+                android:layout_width="match_parent"
+                android:layout_height="30dp"
+                android:fontFamily="@font/adamina"
+                android:text="วัดช้างเผือก"
+                android:textColor="#FFFFFF"
+                android:textSize="18sp"
+                android:textStyle="bold"
+                android:translationY="15dp" />
+
+            <ImageView
+                android:id="@+id/imageView7"
+                android:layout_width="353dp"
+                android:layout_height="297dp"
+                android:translationX="19dp"
+                app:srcCompat="@drawable/chang" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <TextView
+                    android:id="@+id/textView4"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="@font/adamina"
+                    android:text="  วัดช้างเผือก"
+                    android:textColor="#FFFFFF"
+                    android:textStyle="bold" />
+
+                <ScrollView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent">
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="vertical">
+
+                        <TextView
+                            android:id="@+id/textView5"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:fontFamily="@font/adamina"
+                            android:text="       เยี่ยมชมและสักการะวัดเก่าแก่คู่บ้านของชาวเพชรบูรณ์ ซึ่งมีอายุกว่า 300 ปี โดยสันนิษฐานว่าปลูกสร้างขึ้นตั้งแต่สมัยกรุงศรีอยุธยา จากหลักฐานที่ขุดพบเมื่อวันที่ 14 มีนาคม 2547 คือซากปรักหักพังของโบสถ์เก่าและมีการบูรณะตกแต่งด้วยการสร้างพระพุทธรูปปางประทานพรไว้ตรงกลางอย่างสวยงาม ประดับรูปปั้นช้างเผือกเป็นสัญลักษณ์อยู่บริเวณปากทางเข้าวัด ความวิจิตรตระการตาภายในวัดอาจทำให้คุณทึ่งและตื่นตาไปกับจิตรกรรมฝาผนังเรื่องพระเวสสันดรชาดก และยังเป็นที่เก็บรักษาสรีระที่ไม่เน่าเปื่อยของพระครูวิชิต พัชราจารย์ หรือ &quot;หลวงพ่อทบ&quot; พระสงฆ์ที่เป็นที่เคารพของชาวจังหวัดเพชรบูรณ์ ซึ่งเป็นพระเกจิอาจารย์ผู้มีพลังจิตแก่กล้าเหนือธรรมชาติ เชื่อกันว่าท่านได้บรรลุธรรมชั้นสูง จนสำเร็จเป็นพระอรหันต์"
+                            android:textColor="#FFFFFF" />
+                    </LinearLayout>
+                </ScrollView>
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <Button
+                android:id="@+id/btnBACK"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:onClick="BackPage"
+                android:text="BACK"
+                android:translationX="12dp" />
+
+            <Button
+                android:id="@+id/btnHOME"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:onClick="HomePage"
+                android:text="HOME"
+                android:translationX="73dp" />
+
+            <Button
+                android:id="@+id/btnNEXT"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:onClick="NextPage"
+                android:text="NEXT"
+                android:translationX="133dp" />
+        </LinearLayout>
+    </LinearLayout>
+</LinearLayout>

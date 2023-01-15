@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bg_travell"
+    tools:context=".Content">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center"
+        android:orientation="vertical"
+        tools:layout_editor_absoluteX="15dp"
+        tools:layout_editor_absoluteY="15dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:layout_weight="1"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/textView3"
+                android:layout_width="match_parent"
+                android:layout_height="30dp"
+                android:fontFamily="@font/adamina"
+                android:text="วัดมหาธาตุ พระอารามหลวง "
+                android:textColor="#FFFFFF"
+                android:textSize="18sp"
+                android:textStyle="bold"
+                android:translationY="15dp" />
+
+            <ImageView
+                android:id="@+id/imageView4"
+                android:layout_width="match_parent"
+                android:layout_height="282dp"
+                app:srcCompat="@drawable/mahathat" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <TextView
+                    android:id="@+id/textView4"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="@font/adamina"
+                    android:text="วัดมหาธาตุ พระอารามหลวง "
+                    android:textColor="#FFFFFF"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:id="@+id/textView5"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="@font/adamina"
+                    android:text="       วัดมหาธาตุมีพระเจดีย์ทรงพุ่มข้าวบิณฑ์แบบสุโขทัย สูงประมาณ 4 วาเศษ สมเด็จกรมพระยาดำรงราชานุภาพ ทรงสันนิษฐานว่าวัดนี้คงสร้างมาตั้งแต่สมัยสุโขทัย เมื่อปี พ.ศ. 2510 ทางกรมศิลปกรได้บูรณะพระเจดีย์องค์นี้ ได้ขุดพบลานทองจารึกในพระเจดีย์องค์ใหญ่หลังพระอุโบสถ และได้นำโบราณวัตถุที่บรรจุเจดีย์นั้นขึ้นมาด้วย มีสิ่งหนึ่งที่ได้มาพร้อมกับพระเครื่อง พระบูชา เป็นรูปช้าง รูปหมู ในท้องหมูมีลานทองจาลึกอยู่ 3 แผ่น มีข้อความตามจารึกว่า &quot;พระเจ้าเพชรบุรเป็นลูกพระญาอนรงปรดิสถาแล&quot; เขียน เป็นคำปัจจุบันได้ &quot;พระ เจ้าเพชรบุรเป็นลูก พระยาอันรงประดิษฐานไว้&quot;จึงทำให้เราทราบว่า&quot;เพชรบูรณ์&quot;แต่เดิมนั้นเป็น &quot;เพชรบุร&quot;"
+                    android:textColor="#FFFFFF" />
+            </LinearLayout>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <Button
+                android:id="@+id/btnBACK"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:onClick="BackPage"
+                android:text="BACK"
+                android:translationX="12dp" />
+
+            <Button
+                android:id="@+id/btnHOME"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:onClick="HomePage"
+                android:text="HOME"
+                android:translationX="73dp" />
+
+            <Button
+                android:id="@+id/btnNEXT"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:onClick="NextPage"
+                android:text="NEXT"
+                android:translationX="133dp" />
+        </LinearLayout>
+    </LinearLayout>
+</LinearLayout>
