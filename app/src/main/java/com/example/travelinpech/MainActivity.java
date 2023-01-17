@@ -39,12 +39,14 @@ public class MainActivity extends AppCompatActivity {
             public void onClick(View view) {
                 String newCategory = editTextNewCategory.getText().toString();
                 if(newCategory.equalsIgnoreCase("")){
-                    Toast.makeText(getApplicationContext(), "Please Enter new Category", Toast.LENGTH_SHORT).show();
+                    Toast.makeText(getApplicationContext(), "Please enter your nickname", Toast.LENGTH_SHORT).show();
                 }else {
                     db.addCategory(new Category(newCategory ));
                     prepareData();
                     editTextNewCategory.setText("");
-                    Toast.makeText(MainActivity.this, "New Category was Successfully added to Database", Toast.LENGTH_SHORT).show();
+                    Toast.makeText(MainActivity.this, "Login Succesful", Toast.LENGTH_SHORT).show();
+                    Intent intent = new Intent(MainActivity.this,Main.class);
+                    startActivity(intent);
                 }
             }
         });
@@ -58,11 +60,7 @@ public class MainActivity extends AppCompatActivity {
         spinnerCategories.setAdapter(adapter);
     }
 
-    public void MainPage(View view){
-        Button btnOK = (Button) findViewById(R.id.btnOK);
-        Intent intent = new Intent(MainActivity.this,Main.class);
-        startActivity(intent);
-    }
+
     public void CallPage(View view){
         Button btnOK = (Button) findViewById(R.id.btnOK);
         Intent intent = new Intent(MainActivity.this,CallMe.class);

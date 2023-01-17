@@ -48,7 +48,7 @@ public class DataBase extends SQLiteOpenHelper {
         List<String> list = new ArrayList<>();
 
         SQLiteDatabase db = this.getReadableDatabase();
-        Cursor cursor = db.rawQuery("SELECT " + COLUMN_NAME + " FROM" + TABLE_NAME, null);
+        Cursor cursor = db.rawQuery("SELECT " + COLUMN_NAME + " FROM " + TABLE_NAME, null);
         if(cursor.moveToFirst()){
             do{
                 list.add(cursor.getString(0));
