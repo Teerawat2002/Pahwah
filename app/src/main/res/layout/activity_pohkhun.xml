@@ -32,7 +32,6 @@
                 android:textSize="18sp"
                 android:textStyle="bold"
                 android:translationY="15dp" />
-
             <ImageView
                 android:id="@+id/imageView5"
                 android:layout_width="match_parent"

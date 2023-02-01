@@ -56,7 +56,8 @@ public class MainActivity extends AppCompatActivity {
 
     public void prepareData(){
         listCategories = db.getAllCategories();
-        adapter = new ArrayAdapter<String>(this, android.R.layout.simple_spinner_dropdown_item, android.R.id.text1, listCategories);
+        adapter = new ArrayAdapter<String>(this, android.R.layout.simple_spinner_dropdown_item,
+                android.R.id.text1, listCategories);
         spinnerCategories.setAdapter(adapter);
     }
 

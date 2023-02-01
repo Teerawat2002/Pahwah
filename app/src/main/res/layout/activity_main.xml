@@ -61,7 +61,6 @@
             android:layout_height="87dp"
             android:orientation="vertical"
             android:translationY="-40dp">
-
             <EditText
                 android:id="@+id/edtName"
                 android:layout_width="match_parent"
