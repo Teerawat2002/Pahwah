@@ -56,22 +56,27 @@
 
             </LinearLayout>
 
-            <LinearLayout
+            <ScrollView
                 android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:background="@drawable/edit_text_bg"
-                android:orientation="vertical">
+                android:layout_height="wrap_content">
 
-                <TextView
-                    android:id="@+id/textView8"
+                <LinearLayout
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:layout_margin="10dp"
-                    android:fontFamily="@font/adamina"
-                    android:text="ของฝากเพชรบูรณ์อันแรกที่เราจะไม่พูดถึงไม่ได้เลยก็เป็นตัวมะขามหวานไร้เมล็ดนั่นเอง ซึ่งปกติมะขามเป็นสัญลักษณ์ของจังหวัดเพชรบูรณ์ที่ขึ้นชื่ออยู่แล้ว แต่นี่นำมาแปรรูปให้หวานๆ ทานง่าย ซื้อง่าย ขายคล่องยิ่งกว่าเดิม เหมาะกับการเป็นของฝากมากๆ ราคาก็ไม่แพงมากด้วยแล้วแต่ร้าน และมีมากมายหลากหลายแบบให้เลือกเลย จะห่อเล็ก ห่อใหญ่ก็มีให้เลือกกัน"
-                    android:textColor="#333333"
-                    android:textSize="16sp" />
-            </LinearLayout>
+                    android:background="@drawable/edit_text_bg"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:id="@+id/textView8"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_margin="10dp"
+                        android:fontFamily="@font/adamina"
+                        android:text="ของฝากเพชรบูรณ์อันแรกที่เราจะไม่พูดถึงไม่ได้เลยก็เป็นตัวมะขามหวานไร้เมล็ดนั่นเอง ซึ่งปกติมะขามเป็นสัญลักษณ์ของจังหวัดเพชรบูรณ์ที่ขึ้นชื่ออยู่แล้ว แต่นี่นำมาแปรรูปให้หวานๆ ทานง่าย ซื้อง่าย ขายคล่องยิ่งกว่าเดิม เหมาะกับการเป็นของฝากมากๆ ราคาก็ไม่แพงมากด้วยแล้วแต่ร้าน และมีมากมายหลากหลายแบบให้เลือกเลย จะห่อเล็ก ห่อใหญ่ก็มีให้เลือกกัน"
+                        android:textColor="#333333"
+                        android:textSize="16sp" />
+                </LinearLayout>
+            </ScrollView>
 
         </LinearLayout>
 
