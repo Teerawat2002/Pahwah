@@ -38,8 +38,8 @@
 
         <ImageView
             android:id="@+id/imageView2"
-            android:layout_width="match_parent"
-            android:layout_height="305dp"
+            android:layout_width="298dp"
+            android:layout_height="268dp"
             app:srcCompat="@drawable/main_bg" />
 
         <LinearLayout
@@ -61,6 +61,13 @@
                 android:layout_height="wrap_content"
                 android:onClick="OTPView"
                 android:text="สินค้า OTOP" />
+
+            <Button
+                android:id="@+id/btnCallme"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="ติดต่อสอบถาม"
+                android:onClick="CallPage"/>
         </LinearLayout>
 
     </LinearLayout>

@@ -26,6 +26,12 @@ public class Main extends AppCompatActivity {
         startActivity(intent);
     }
 
+    public void CallPage(View view){
+        Button btnOK = (Button) findViewById(R.id.btnCallme);
+        Intent intent = new Intent(Main.this,CallMe.class);
+        startActivity(intent);
+    }
+
     public void LoginPage(View view){
         Button btnHOME = (Button) findViewById(R.id.btnHOME);
         Intent intent = new Intent(Main.this,MainActivity.class);

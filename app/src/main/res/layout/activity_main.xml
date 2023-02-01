@@ -88,7 +88,7 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:orientation="vertical"
-            android:translationY="15dp">
+            android:translationY="-40dp">
 
             <Button
                 android:id="@+id/btnOK"
@@ -97,13 +97,6 @@
                 android:onClick="MainPage"
                 android:text="OK" />
 
-            <Button
-                android:id="@+id/button4"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:fontFamily="@font/adamina"
-                android:onClick="CallPage"
-                android:text="ติดต่อสอบถาม" />
         </LinearLayout>
     </LinearLayout>
 </LinearLayout>
